@@ -11,6 +11,7 @@ except:
 	import telebot
 Z = '\033[1;31m'
 X = '\033[1;33m'
+self.prog = '@oo22bb'
 F = '\033[2;32m' 
 C = "\033[1;97m"
 B = '\033[2;36m'
@@ -55,54 +56,82 @@ RED = '\x1b[1;31m'  # أحمر
 ORANGE = '\x1b[38;5;208m'  # برتقالي
 W = '\x1b[0m'  # ابيض
 def banner():
-    print(f'''{C}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━''')
-    time.sleep(0.3)
-    print(f'''{C}┃{E}   {R}TikTok Tool{C}     ┃{R}Dev: {G} @oo22bb {C} ┃{R} CH: {G} @SOFESKR{G}''')
-    time.sleep(0.3)
-    print(f'''{C}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━''')
-    time.sleep(0.3)
-    print(f'''{C}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━''')
-    time.sleep(0.3)
+    print(f'''{C}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━''')
+    
+    print(f'''{C}┃{E}{R}TikTok Tool Check List Gmail{C}     ┃{R}Dev: {G} @oo22bb {C} ┃{R} CH: {G} @SOFESKR{G}''')
+    
+    print(f'''{C}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━''')
+    
+    print(f'''{C}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━''')
+    
 
-    output = render('Server', font='block', colors=['white', 'red'], align='center', space=True)
+    output = render('Gmail ', font='block', colors=['white', 'red'], align='center', space=True)
     print('\033[1m' + output)
 
-    time.sleep(0.3)
-    print(f'''{C}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━''')
+    
+    print(f'''{C}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━''')
 
 if __name__ == "__main__":
     banner()
 print(f"""
 	{W}[{a3}1{W}] {J21}= {a4}Saved Acounts IN Bot{J22} - {RED} حفض الحسابات في البوت
 	{W}[{a3}2{W}] {J21}= {a4}Saved Acounts IN File{J22} - {RED}حفض  الحسابات في الملف
-	{W}[{a3}3{W}] {J21}= {a4}All{J22} - {RED}الكل
+	{W}[{a3}3{W}] {J21}= {a4}All{J22} - {RED}الكل-الافضل
 """)
 dexter = int(input(f'\t{W}[{RED}×{W}] {J21}Enter Number : '))
+os.system('clear')
+banner()
 if dexter==1:
-	idd=input(B+"	Enter ID : ")
-	tok= input(B+"	Enter Token : ")
+	idd=input(f"	{a3}Enter {a4}ID : "+RED)
+	os.system('clear')
+	banner()
+	tok= input(f"	{a3}Enter {a4}Token : "+RED)
+	os.system('clear')
+	banner()
 elif dexter==2:
-	send=input('	Put Name File or Path : ')
+	send=input(f'	{a3}Put {W}Name {J21}File {J22}or {a5}Path : '+RED)
+	os.system('clear')
+	banner()
 elif dexter==3:
-	idd=input(B+"	Enter ID : ")
-	tok= input(B+"	Enter Token : ")
-	send=input('	Put Name File or Path : ')
+	idd=input(f"	Enter ID : ")
+	os.system('clear')
+	banner()
+	tok= input(f"	Enter Token : ")
+	os.system('clear')
+	banner()
+	send=input(f'	Put Name File or Path : ')
+	os.system('clear')
+	banner()
 else:
 		exit(f'	{RED}Incorrect choice - اختيار غير صحيح')
 fileuser=input(f'	{S}Put File UserName To Be Done Check :')
-
-
+os.system('clear')
+banner()
+max = int(input(f'	{a3}Put {W}Speed {J21}For Checkr{J22} - {RED}ادخل سرعه الفحص : '))
 with open(fileuser, "r", encoding="utf-8") as f:
     lines = f.readlines()
-print(f'	{J22}Number The UserName IN List : {len(lines)}')
-time.sleep(5)
+os.system('clear')
+banner()    
+
+time.sleep(10)
 ya=0
 no=0
 nod=0
 yas=0
 kn=requests.get('https://raw.githubusercontent.com/zaid21ru/text/refs/heads/main/test').text
-nameee=[
-
+os.system('clear')
+banner()
+print(f"""
+	{W}[{a3}1{W}] {J21}= {a4}Seasonid From Tool{J22} - {RED} سيزن ايدي من الاداه
+	{W}[{a3}2{W}] {J21}= {a4}Seasonid Yours {J22} - {RED}سيزن ايدي خاص بك
+	{W}[{a3}3{W}] {J21}= {a4}Seasonid From File Yours{J22} - {RED}سيزن ايدي من ملف خاص بك
+	{W}[{a3}4{W}] {J21}= {a4}Seasonid From Tool V2{J22} - {RED}سيزن ايدي من الاداه V2
+""")
+your = int(input(f'\t{W}[{RED}×{W}] {J21}Enter Number : '))
+os.system('clear')
+banner()
+if your== 1:
+	nameee= random.choice([
 '196d5ea17130e0ff10ef183f7e150238',
 '69f53e6cfce263d3399991fe2a8e0739',
 '66087b455831238f20ef015b1edd0b85',
@@ -704,9 +733,30 @@ nameee=[
 'f9234f85851b66544e4d6db8be835ff5',
 'b3c0884647b28c29c6b55ca22b615798',
 'ee504e276daa005328e6c100cef59839',
-'8f612ea133026f909d6a772b698635dc',
-]
+'8f612ea133026f909d6a772b698635dc'])
 
+elif your== 2:
+	nameee=input(f'{a3}\t Sesoinid : ')
+elif your== 3:
+	nameee = input(f'{a3}\t File Sesoinid Yours : ').strip()
+	with open(nameee, "r", encoding="utf-8") as f:
+	           s = random.choice([l.strip() for l in f if l.strip()])
+elif your== 4:
+	url = 'https://raw.githubusercontent.com/is-L7N/session_keys/main/session.txt'
+	r = requests.get(url)
+	nameee = random.choice([l.strip() for l in r.text.splitlines() if l.strip()])
+os.system('clear')
+banner()
+print(f"""{J22}
+	عدد اليوزرات في ملفك : {len(lines)}
+	Number of Users In Your File : {len(lines)}
+
+	انتضر 10 ثواني....
+	Wait 10 Seconds.....
+""")
+time.sleep(10)
+os.system('clear')
+banner()
 import os, time, random, uuid, binascii, json, secrets, re
 import requests
 from requests import Session, get
@@ -720,7 +770,6 @@ except ImportError:
     os.system('pip install requests pycryptodome MedoSigner')
     import requests
     from MedoSigner import Argus, Gorgon, Ladon, md5
-
 def get_tiktok_level(username):
     username = str(username)
     def info(username):
@@ -926,11 +975,11 @@ def info(email):
         m = re.search(r'<script id="__UNIVERSAL_DATA_FOR_REHYDRATION__".*?>(.*?)</script>', html)
         if not m:
             ff = f"""
-[New hits acount]            
-═━═━═━═━═━═━═━═━═━
-❄️Username :  @{account_data['user']}
-❄️Email  :  {email} 
-═━═━═━═━═━═━═━═━═━
+𝗡𝗘𝗪 𝗧𝗜𝗞𝗧𝗢𝗞 𝗛𝗜𝗧
+◎︎ •၊၊||၊|။||||။‌‌‌‌‌၊|• 0:10 
+❄️𝗨𝘀𝗲𝗿𝗡𝗮𝗺𝗲 :  @{account_data['user']}
+❄️𝗘𝗺𝗮𝗶𝗹  :  {email} 
+◎︎ •၊၊||၊|။||||။‌‌‌‌‌၊|• 0:02 
             """
             requests.post(f"https://api.telegram.org/bot{tok}/sendMessage",
                           params={'chat_id': idd, 'text': ff, 'parse_mode': 'HTML'})
@@ -942,35 +991,35 @@ def info(email):
         user_obj = iinfo['user']
         stats = iinfo['stats']
         create_time = user_obj.get("createTime")
-        create_date = datetime.datetime.fromtimestamp(int(create_time)).strftime("%Y-%m-%d") if create_time else "غير معلوم"                    
+        create_date = datetime.datetime.fromtimestamp(int(create_time)).strftime("%Y-%m-%d") if create_time else "None"                    
         account_data = {
             'id': user_obj.get('id', 'N/A'),
             'user': user_obj.get('uniqueId', username),
             'name': user_obj.get('nickname', 'N/A'),
             'folos': format(stats.get('followerCount', 0), ',d'),
             'folon': format(stats.get('followingCount', 0), ',d'),
-            'priv': 'نعم' if user_obj.get('privateAccount') else 'لا',
+            'priv': 'True' if user_obj.get('privateAccount') else 'False',
             'lik': format(stats.get('heartCount', 0), ',d'),
             'vid': format(stats.get('videoCount', 0), ',d'),
             'created': create_date,
-            'language': user_obj.get('language', 'غير معلوم'),
+            'language': user_obj.get('language', 'False'),
         }        
         ff = f"""
-[New hits acount]
-═━═━═━═━═━═━═━═━═━═━═━═
-❄️Name :  {account_data['name']}
-❄️Username :  @{account_data['user']}
-❄️Email  :  {email} 
-❄️Followers :  {account_data['folos']}
-❄️Following :  {account_data['folon']}
-❄️Likes :  {account_data['lik']}
-❄️Id :  {account_data['id']}
-❄️Created At  : {account_data['created']}
-❄️Videos : {account_data['vid']}
-❄️Private : {account_data['priv']}
-❄️Language    : {account_data['language']}
-❄️Programe : @oo22bb
-═━═━═━═━═━═━═━═━═━═━═━═
+𝗡𝗘𝗪 𝗧𝗜𝗞𝗧𝗢𝗞 𝗛𝗜𝗧
+◎︎ •၊၊||၊|။||||။‌‌‌‌‌၊|• 0:12
+❄️𝗡𝗮𝗺𝗲 :  {account_data['name']}
+❄️𝗨𝘀𝗲𝗿𝗡𝗮𝗺𝗲 :  @{account_data['user']}
+❄️𝗘𝗺𝗮𝗶𝗹  :  {email} 
+❄️𝗙𝗼𝗹𝗹𝗼𝘄𝗲𝗿𝘀 :  {account_data['folos']}
+❄️𝗳𝗼𝗹𝗹𝗼𝘄𝗶𝗻𝗴 :  {account_data['folon']}
+❄️𝗟𝗶𝗸𝗲𝘀 :  {account_data['lik']}
+❄️𝗜𝗗 :  {account_data['id']}
+❄️𝗖𝗿𝗲𝗮𝘁𝗲𝗱  : {account_data['created']}
+❄️𝗩𝗶𝗱𝗲𝗼𝘀 : {account_data['vid']}
+❄️𝗣𝗿𝗶𝘃𝗮𝘁𝗲 : {account_data['priv']}
+❄️𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲    : {account_data['language']}
+❄️Programe : {self.prog}
+◎︎ •၊၊||၊|။||||။‌‌‌‌‌၊|• 0:12
         """.strip()
         with open(send, "a", encoding="utf-8") as f:
             	f.write(ff + "\n" )
@@ -980,11 +1029,11 @@ def info(email):
 
     except Exception as e:
         ff = f"""
-[New hits acount]        
-═━═━═━═━═━═━═━═━═━
-❄️Username :  @{account_data['user']}
-❄️Email  :  {email} 
-═━═━═━═━═━═━═━═━═━
+𝗡𝗘𝗪 𝗧𝗜𝗞𝗧𝗢𝗞 𝗛𝗜𝗧
+◎︎ •၊၊||၊|။||||။‌‌‌‌‌၊|• 0:10 
+❄️𝗨𝘀𝗲𝗿𝗡𝗮𝗺𝗲 :  @{account_data['user']}
+❄️𝗘𝗺𝗮𝗶𝗹  :  {email} 
+◎︎ •၊၊||၊|။||||။‌‌‌‌‌၊|• 0:02 
         """.strip()
         print("خطأ:", e)
         requests.post(f"https://api.telegram.org/bot{tok}/sendMessage",
@@ -1146,7 +1195,7 @@ def chzm(email):
 	       data=payload
 	       if not unix: unix = int(time.time())
 	       return Gorgon(params, unix, payload, cookie).get_value() | { "x-ladon"   : Ladon.encrypt(unix, license_id, aid),"x-argus"   : Argus.get_sign(params, x_ss_stub, unix,platform        = platform,aid             = aid,license_id      = license_id,sec_device_id   = sec_device_id,sdk_version     = sdk_version_str, sdk_version_int = sdk_version)}		
-	cookies={"sessionid": random.choice(nameee)}
+	cookies={"sessionid": nameee}
 	params={
 	
     'aid': '1233',
@@ -1199,7 +1248,7 @@ def main():
     except:
     	print('غير موجود')
     	exit()
-    with ThreadPoolExecutor(max_workers=20) as executor:
+    with ThreadPoolExecutor(max_workers=max) as executor:
         executor.map(chzm, users)
 if __name__ == "__main__":
     main()
