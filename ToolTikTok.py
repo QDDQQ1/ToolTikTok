@@ -11,7 +11,6 @@ except:
 	import telebot
 Z = '\033[1;31m'
 X = '\033[1;33m'
-self.prog = '@oo22bb'
 F = '\033[2;32m' 
 C = "\033[1;97m"
 B = '\033[2;36m'
@@ -1018,7 +1017,7 @@ def info(email):
 ❄️𝗩𝗶𝗱𝗲𝗼𝘀 : {account_data['vid']}
 ❄️𝗣𝗿𝗶𝘃𝗮𝘁𝗲 : {account_data['priv']}
 ❄️𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲    : {account_data['language']}
-❄️Programe : {self.prog}
+❄️Programe : @oo22bb
 ◎︎ •၊၊||၊|။||||။‌‌‌‌‌၊|• 0:12
         """.strip()
         with open(send, "a", encoding="utf-8") as f:
