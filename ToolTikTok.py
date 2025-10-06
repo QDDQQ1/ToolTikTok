@@ -120,17 +120,7 @@ yas=0
 kn=requests.get('https://raw.githubusercontent.com/zaid21ru/text/refs/heads/main/test').text
 os.system('clear')
 banner()
-print(f"""
-	{W}[{a3}1{W}] {J21}= {a4}Seasonid From Tool{J22} - {RED} سيزن ايدي من الاداه
-	{W}[{a3}2{W}] {J21}= {a4}Seasonid Yours {J22} - {RED}سيزن ايدي خاص بك
-	{W}[{a3}3{W}] {J21}= {a4}Seasonid From File Yours{J22} - {RED}سيزن ايدي من ملف خاص بك
-	{W}[{a3}4{W}] {J21}= {a4}Seasonid From Tool V2{J22} - {RED}سيزن ايدي من الاداه V2
-""")
-your = int(input(f'\t{W}[{RED}×{W}] {J21}Enter Number : '))
-os.system('clear')
-banner()
-if your== 1:
-	nameee= random.choice([
+nameee= random.choice([
 '196d5ea17130e0ff10ef183f7e150238',
 '69f53e6cfce263d3399991fe2a8e0739',
 '66087b455831238f20ef015b1edd0b85',
@@ -732,18 +722,9 @@ if your== 1:
 'f9234f85851b66544e4d6db8be835ff5',
 'b3c0884647b28c29c6b55ca22b615798',
 'ee504e276daa005328e6c100cef59839',
-'8f612ea133026f909d6a772b698635dc'])
+'8f612ea133026f909d6a772b698635dc'
 
-elif your== 2:
-	nameee=input(f'{a3}\t Sesoinid : ')
-elif your== 3:
-	nameee = input(f'{a3}\t File Sesoinid Yours : ').strip()
-	with open(nameee, "r", encoding="utf-8") as f:
-	           s = random.choice([l.strip() for l in f if l.strip()])
-elif your== 4:
-	url = 'https://raw.githubusercontent.com/is-L7N/session_keys/main/session.txt'
-	r = requests.get(url)
-	nameee = random.choice([l.strip() for l in r.text.splitlines() if l.strip()])
+])
 os.system('clear')
 banner()
 print(f"""{J22}
